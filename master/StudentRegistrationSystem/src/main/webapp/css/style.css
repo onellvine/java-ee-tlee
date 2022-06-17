@@ -1,0 +1,71 @@
+
+
+.wrapper {
+    width: 24%;
+    margin: 0 auto;
+    background-color: rgb(245, 139, 139);
+    padding: 10px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+label {
+    display: inline-block;
+    min-width: 170px;
+    text-align: right;
+}
+
+
+input {
+    width: 250px;
+}
+#user_id, #password, #password1 {
+    width: 180px;
+}
+
+#city {
+    width: 150px;
+    margin-left: 4px;
+}
+
+.with-ssn, .with-citystate {
+	display: flex;
+	justify-content: flex-start;
+}
+
+#ssn, #city-state {
+    display: inline-block;
+}
+
+#ssn1 {
+    width: 24px;
+    margin-left: 4px;
+}
+#ssn2 {
+    width: 18px;
+}
+#ssn3 {
+    width: 30px;
+}
+
+input[type='submit'] {
+    margin-left: 60px;
+    width: 100px;
+}
+
+#zip_code {
+    width: 100px;
+}
+
+input[type='reset'] {
+    margin-left: 10px;
+    width: 100px;
+}
